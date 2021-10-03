@@ -18,4 +18,6 @@ To test the features of the website:
 
 If all tests are passed, then HOORAY!
 
-LINK TO THE LIVE WEBISTE!:
+LINK TO THE LIVE WEBISTE!: https://nicholasamarillo.github.io/my_portfolio_hw2/
+
+![](/assets/images/portfolio-scnst.jpg "Portfolio Website Screenshot")
