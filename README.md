@@ -26,5 +26,5 @@ LINK TO THE LIVE WEBISTE!:
 =======
 LINK TO THE LIVE WEBISTE!: https://nicholasamarillo.github.io/my_portfolio_hw2/
 
-![](/assets/images/portfolio-scnst.jpg "Portfolio Website Screenshot")
+![](/assets/images/finished_portfolio.png "Portfolio Website Screenshot")
 >>>>>>> 76320f3c01c6f2ecda31dcaaa2f50b7ab3538805
