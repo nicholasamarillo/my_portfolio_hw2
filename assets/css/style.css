@@ -1,11 +1,278 @@
-*{
+* {
     margin:0;
     padding:0;
     box-sizing:border-box;
     list-style:none;
 }
 
-body, html{
+ body, html{
+    margin:0;
+    padding: 0;
+    scroll-behavior:smooth;
+    background-color:#e6eaeb
+    
+}
+header{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:150px;
+    width:100%;
+    background-color:#1d6678;
+    padding: 20px 5%;
+    font-family:"Andale Mono", monospace;
+    font-style: italic;
+    color:white;
+    background-image:url("../images/banner.jpg");
+    border-bottom:black solid 25px;
+}
+
+header img{
+    max-width: 100px;
+    border-radius:50%;
+
+}
+
+header h1{
+    font-size: 35px;
+    line-height: 80px;
+    padding:0 100px;
+    font-weight: bold;
+}
+
+.navbar {
+    display: inline-block;
+    flex-direction:row;
+    flex-wrap:wrap;
+    float: right;
+    
+
+}
+
+.navbar a {
+    color:white;
+    text-decoration:none;
+    padding:20px;
+    font-size:25px;
+    transition: all 0.3s ease 0s;
+}
+
+.navbar a:hover {
+    color:#fce656;
+}
+
+.card {
+    height:300px;
+    width:80%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    justify-content: space-between;
+    object-fit:fill;
+    padding:5%;
+}
+
+#aboutme h2{
+    padding-right:5%;
+    border-right: 5px solid black;
+    font-family: "Andale Mono", monospace;
+    font-style: italic;
+    font-size: 50px;
+}
+
+#aboutme p{
+    padding-left:5%;
+    font-family: "Andale Mono", monospace;
+    font-style: italic;
+    font-size:18px;
+}
+
+.flex{
+    display:flex;
+    flex-flow:wrap row;
+    justify-content: space-around;
+    flex: 2 1 200px;
+}
+
+#work h2{
+    padding-right:5%;
+    border-right: 5px solid black;
+    font-family: "Andale Mono", monospace;
+    font-style: italic;
+    font-size: 50px;
+}
+
+#work a{
+    text-decoration:none;
+    color:white;
+}
+
+.password{
+    height:200px;
+    width:200px;
+    border: 2px solid black;
+    box-shadow: 10px 10px 5px grey;
+    background-image: url("../images/password.png");
+    background-size:contain;
+    
+}
+
+.password:hover{
+    cursor:pointer;
+    margin-bottom:15px;
+    transition: all 0.3s ease 0s;
+}
+
+.password h3{
+    text-align: center;
+    padding-top:10px;
+    color:white;
+    font-family: "Andale Mono", monospace;
+    font-style: italic;
+    
+}
+
+.code-quiz{
+    height:200px;
+    width:200px;
+    border: 2px solid black;
+    box-shadow: 10px 10px 5px grey;
+    background-image: url("../images/code.jpg");
+    background-size:cover;
+}
+
+.code-quiz:hover{
+    cursor:pointer;
+    margin-bottom:15px;
+    transition: all 0.3s ease 0s;
+}
+
+.code-quiz h3{
+    text-align: center;
+    padding-top:10px;
+    color:white;
+    font-family: "Andale Mono", monospace;
+    font-style: italic;
+    text-decoration:none;
+}
+
+.day-planner{
+    height:200px;
+    width:200px;
+    border: 2px solid black;
+    box-shadow: 10px 10px 5px grey;
+    background-image: url("../images/calendar.jpg");
+    background-size:cover;
+}
+
+.day-planner:hover{
+    cursor:pointer;
+    margin-bottom:15px;
+    transition: all 0.3s ease 0s;
+}
+
+.day-planner h3{
+    text-align: center;
+    padding-top:10px;
+    color:white;
+    font-family: "Andale Mono", monospace;
+    font-style: italic;
+    text-decoration:none;
+}
+
+.weather-dashboard{
+    height:200px;
+    width:200px;
+    border: 2px solid black;
+    box-shadow: 10px 10px 5px grey;
+    background-image: url("../images/weather.png");
+    background-size:cover;
+}
+
+.weather-dashboard:hover{
+    cursor:pointer;
+    margin-bottom:15px;
+    transition: all 0.3s ease 0s;
+}
+
+.weather-dashboard h3{
+    text-align: center;
+    padding-top:10px;
+    color:white;
+    font-family: "Andale Mono", monospace;
+    font-style: italic;
+    text-decoration:none;
+}
+
+#contactme h2{
+    padding-right:5%;
+    border-right: 5px solid black;
+    font-family: "Andale Mono", monospace;
+    font-style: italic; 
+    font-size: 50px;
+}
+
+#contactme p{
+    padding-left:5%;
+    font-family: "Andale Mono", monospace;
+    font-style: italic;
+    font-size:15px;
+}
+
+#contactme ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding:50px;
+    font-family: "Andale Mono", monospace;
+    font-style: italic;
+    font-size:22px;
+    color:black;
+}
+
+#contactme img{
+    width:200px;
+}
+
+#resume h2{
+    padding-right:5%;
+    border-right: 5px solid black;
+    font-family: "Andale Mono", monospace;
+    font-style: italic; 
+    font-size: 50px;
+}
+
+#resume p{
+    padding-left:5%;
+    font-family: "Andale Mono", monospace;
+    font-style: italic;
+    font-size:18px;
+}
+
+@media only screen and (max-width:1376px){
+    header{
+        width:100%;
+        padding:0px 0px;
+    }
+
+    .navbar{
+        justify-content:center;
+    }
+
+    .card{
+        flex-direction:column;
+    }
+
+    .flex:nth-child(1){
+        min-height:150px;
+    }
+}
+
+
+
+
+
+
+/* body, html{
     margin:0;
     padding: 0;
     scroll-behavior:smooth;
@@ -73,13 +340,6 @@ header h1{
    
 }
 
-.card p{
-    padding:0px 5%;
-    font-family: "Andale Mono", monospace;
-    font-style: italic;
-    font-size:20px;
-    
-}
 
 .card img{
     object-fit:fill;
@@ -186,8 +446,7 @@ footer{
     justify-content:center;
     align-items:center;
 
-}
-
+} */
 
 
 
