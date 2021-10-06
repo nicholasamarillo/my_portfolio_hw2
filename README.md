@@ -10,12 +10,19 @@ This website does have some hover elements in the navbar as well as a scroll ani
 TESTS:
 
 To test the features of the website:
+
 1: Click on the "About Me" button on the navbar and it should bring you to the section corresponding with its title.
+
 2: Click on the "Work" button on the navbar and it should bring you to the section corresponding with its title.
+
 3: Click on the "Contact Me" button on the navbar and it should bring you to the section corresponding with its title.
+
 4: Click on the "Resume" button on the navbar and it should bring you to the section corresponding with its title.
+
 5: See if the scrolling animation is performing as it should be.
+
 6: See if the Github and LinkedIn logos take you to their respoected pages.
+
 7. See if the work cards have the float animation.
 
 If all tests are passed, then HOORAY!
