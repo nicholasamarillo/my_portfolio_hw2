@@ -20,7 +20,6 @@ To test the features of the website:
 
 If all tests are passed, then HOORAY!
 
-<<<<<<< HEAD
 
 LINK TO THE LIVE WEBISTE!:
 =======
