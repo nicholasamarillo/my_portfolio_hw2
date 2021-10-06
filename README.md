@@ -5,7 +5,7 @@ DESCRIPTION:
 The purpose of this assignment was to show that we were able to grasp the concepts of CSS and al of its features. This was also for us to develop of very first website on our own. Now, this assignment wasn't easy and there are definitely areas where I can practice and improve my skills as a developer. It was tough getting started becasue we were able to make our website look however we wanted. Being given so many options to choose from can be hard at times. Once I was able to draw up a wire frame, I was able to break down what I wanted to do.
 
 FEATURES:
-This website does have some hover elements in the navbar as well as a scroll animation when those navbar links were clicked. I do also provied links to my contact information via "a href". There is also a hover effect on the work cards for all my prjects.
+This website does have some hover elements in the navbar as well as a scroll animation when those navbar links were clicked. I do also provied links to my contact information via "a href". There is also a hover effect on the work cards for all my projects.
 
 TESTS:
 
