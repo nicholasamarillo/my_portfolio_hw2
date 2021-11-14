@@ -88,11 +88,16 @@ header h1{
 }
 
 .flex{
-    display:flex;
+    /* display:flex;
     flex-flow:wrap row;
     justify-content: space-around;
-    flex: 2 1 200px;
-}
+    flex: 2 1 200px; */
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;;
+    
+} 
+
 
 #work h2{
     padding-right:5%;
